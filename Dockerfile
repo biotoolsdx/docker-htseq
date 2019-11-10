@@ -1,5 +1,5 @@
 FROM python:3.5-slim-stretch
-MAINTAINER Chen Yuelong <yuelong.chen@aegicare.com>
+MAINTAINER Chen Yuelong <yuelong.chen.btr@gmail.com>
 
 
 ARG BUILD_PACKAGES="build-essential zlib1g-dev  libbz2-dev liblzma-dev"
