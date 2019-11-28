@@ -2,7 +2,7 @@
 
 |jobs|status|
 |:--:|:----:|
-|actions|![actions_badge](https://github.com/biotoolsdx/docker-htseq/workflows/docker/badge.svg)|
+|actions|![actions_badge](https://github.com/biotoolsdx/docker-htseq/workflows/Docker/badge.svg)|
 
 [![dockeri.co](https://dockeri.co/image/biotoolsdx/htseq)](https://hub.docker.com/r/biotoolsdx/htseq)
 
