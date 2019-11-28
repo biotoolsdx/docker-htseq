@@ -44,6 +44,7 @@ jobs:
 
       - name: Push image
         run: |
+          PACKAGE_VERSION=$(cat VERSION|head -n1 | sed 's/\n//g')
           IMAGE_ID=${DOCKER_HUB_REP_NAME}/${IMAGE_NAME}
           # Strip git ref prefix from version
           VERSION=$(echo "${{ github.ref }}" | sed -e 's,.*/\(.*\),\1,')
